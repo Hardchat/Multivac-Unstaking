@@ -6,7 +6,7 @@ current_time = (now.strftime('%m-%d-%Y %I:%M:%S %p'))
 outfile_name = (now.strftime('mtv_logs/MTV_SAVE_%m-%d-%Y_%I.%M.%S_%p'))
 print("Loading Addresses....")
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.3'}
-ids_url = "https://e.mtv.ac/stake/tops?pageNum=1&pageSize=10000"
+ids_url = "https://e.mtv.ac/stake/tops?pageNum=1&pageSize=100000"
 list_req = Request(url=ids_url, headers=headers)
 list_read = urlopen(list_req).read()
 list_load = json.loads(list_read)
