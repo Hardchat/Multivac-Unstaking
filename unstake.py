@@ -3,7 +3,7 @@ import json, datetime
 
 now = datetime.datetime.now()
 current_time = (now.strftime('%m-%d-%Y %I:%M:%S %p'))
-outfile_name = (now.strftime('logs/MTV_SAVE_%m-%d-%Y_%I:%M:%S_%p'))
+outfile_name = (now.strftime('mtv_logs/MTV_SAVE_%m-%d-%Y_%I.%M.%S_%p'))
 print("Loading Addresses.....")
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.3'}
 ids_url = "https://e.mtv.ac/stake/tops?pageNum=1&pageSize=10000"
@@ -26,8 +26,8 @@ while current_id < total_ids:
     y = json.loads(page)
     currentUnstaked = (y["stake"]["withdrawPending"])
     unstake_total = int(unstake_total) + int(currentUnstaked)
-    save = open(outfile_name, 'w+')
-    save_info = save.write("MTV currently being unstaked: {0} As of {1}\n".format(str(unstake_total), str(current_time)))
+    with open(outfile_name, 'w+') as save:
+        save_info = save.write("MTV currently being unstaked: {0} As of {1}\n".format(str(unstake_total), str(current_time)))
     print(f'{current_id}/{total_ids}-{user}:{currentUnstaked}')
 
 if len(str(unstake_total)) == 27:
