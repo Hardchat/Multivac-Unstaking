@@ -9,11 +9,11 @@ Firstly, it pulls all active staking addresses from the explorer api, then proce
 # Linux Requirements
 ```
 git
-python3+
+python3
 ```
 # Windows Requirements
 ```
-python3+
+python3
 ```
 # Installation
 ## Linux:
@@ -26,11 +26,13 @@ Download the repository from <a href="https://github.com/Hardchat/Multivac-Unsta
 # Usage
 ## Linux:
 ```
+cd Multivac-Unstaking
 python3 unstake.py
 ```
 
 ## Windows:
 Using powershell/windows terminal, navigate to the location the files were downloaded to.
 ```
+cd Multivac-Unstaking
 python3 unstake.py
 ```
