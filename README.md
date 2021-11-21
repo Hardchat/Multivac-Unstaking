@@ -1,10 +1,10 @@
 <img src="https://e.mtv.ac/logo_color.png">
 
 # Multivac Unstaking Tool 
-
 A script to track the total amount of Multivac tokens being unstaked from the pool.
 
-Firstly, it pulls all active staking addresses from the explorer api, then proceeds to check each address for the value in "withdrawPending" and outputs progress. After each address has been checked we save the data into the directory `mtv_logs` with each file being time-stamped and output it in a more human readable format.
+## Details
+Firstly, it pulls all active staking addresses from the explorer api, then proceeds to check each address for the value in `withdrawPending` and outputs progress. After each address has been checked we save the data into the directory `mtv_logs` with each file being time-stamped and output it in a more human readable format.
 
 # Linux Requirements
 ```
