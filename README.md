@@ -4,11 +4,14 @@
 A script to track the total amount of Multivac tokens being unstaked from the pool.
 
 # Linux Requirements
-git<br />
+```
+git
 python3+
+```
 # Windows Requirements
+```
 python3+
-
+```
 # Installation
 ## Linux:
 ```
