@@ -21,7 +21,7 @@ python3+
 git clone https://github.com/Hardchat/Multivac-Unstaking/
 ```
 ## Windows:
-Download the repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/">Here</a>
+Download the repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/archive/refs/heads/main.zip">Here</a>
 
 # Usage
 ## Linux:
