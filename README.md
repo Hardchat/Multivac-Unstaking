@@ -10,20 +10,20 @@ python3+
 python3+
 
 # Installation
-Linux:
+## Linux:
 ```
 git clone https://github.com/Hardchat/Multivac-Unstaking/
 ```
-Windows:
+## Windows:
 Download the repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/">Here</a>
 
 # Usage
-Linux:
+## Linux:
 ```
 python3 unstake.py
 ```
 
-Windows:
+## Windows:
 Using powershell/windows terminal, navigate to the location the files were downloaded to.
 ```
 python3 unstake.py
