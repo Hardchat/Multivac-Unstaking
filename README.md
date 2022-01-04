@@ -39,7 +39,7 @@ Using powershell/windows terminal, navigate to the folder the files were downloa
 cd Multivac-Unstaking
 ```
 
-Then you can run the script using:
+Then you can run the script using the command:
 ```
 python3 unstake.py
 ```
