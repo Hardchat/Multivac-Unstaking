@@ -26,18 +26,16 @@ while current_id < total_ids:
     req = Request(url=reg_url, headers=headers)
     page = urlopen(req).read()
     address_load = json.loads(page)
-    currentUnstaked = (address_load["stake"]["withdrawPending"])
-    unstake_total = (int(unstake_total) + int(currentUnstaked) / decimals)
+    current_unstaked = (address_load["stake"]["withdrawPending"])
+    unstake_total = (int(unstake_total) + int(current_unstaked) / decimals)
     log_sum = ("MTV currently being unstaked: {:,}".format(int(unstake_total)))
     with open(outfile_name, 'w+') as save:
         save_info = save.write(log_sum + f"\nAs of: {current_time}")
-    print(f'{current_id}/{total_ids}-{user}:{currentUnstaked}')
+    print(f'{current_id}/{total_ids}-{user}:{current_unstaked}')
 
 if len(str(unstake_total)) == 27:
-    #unstake_total = str(unstake_total)
     print("\nMTV currently being unstaked: {:,}".format(int(unstake_total)))
     print(f'Data recorded at: {current_time}\n')
 else:
-    #unstake_total = str(unstake_total)
     print("\nMTV currently being unstaked: {:,}".format(int(unstake_total)))
     print(f'Data recorded at: {current_time}\n')
