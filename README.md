@@ -22,9 +22,11 @@ windows terminal
 git clone https://github.com/Hardchat/Multivac-Unstaking/
 ```
 ## Windows:
-Download the repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/archive/refs/heads/main.zip">Here</a>
+Install python3 from the official website here: https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe 
 
-Then, open powershell and install urllib3 with `pip3 install urllib3`
+Download this repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/archive/refs/heads/main.zip">Here</a>
+
+Install Windows Terminal from Microsoft: https://aka.ms/terminal
 
 # Usage
 ## Linux:
@@ -34,7 +36,7 @@ python3 unstake.py
 ```
 
 ## Windows:
-You can easily run the scipt using the "unstake.bat" file in the folder.
+You can easily run the scipt using the `unstake.bat` file in the project folder.
 
 Alternatively:
 
