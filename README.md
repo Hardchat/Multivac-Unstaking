@@ -22,11 +22,11 @@ windows terminal
 git clone https://github.com/Hardchat/Multivac-Unstaking/
 ```
 ## Windows:
-Install python3 from the official website here: https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe 
+1. Install python3 from the official website here: https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe 
 
-Download this repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/archive/refs/heads/main.zip">Here</a>
+2. Download this repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/archive/refs/heads/main.zip">Here</a>
 
-Install Windows Terminal from Microsoft: https://aka.ms/terminal
+3. Install Windows Terminal from Microsoft: https://aka.ms/terminal
 
 # Usage
 ## Linux:
