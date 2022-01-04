@@ -14,6 +14,7 @@ python3
 # Windows Requirements
 ```
 python3
+windows terminal
 ```
 # Installation
 ## Linux:
@@ -23,6 +24,8 @@ git clone https://github.com/Hardchat/Multivac-Unstaking/
 ## Windows:
 Download the repository from <a href="https://github.com/Hardchat/Multivac-Unstaking/archive/refs/heads/main.zip">Here</a>
 
+Then, open powershell and install urllib3 with `pip3 install urllib3`
+
 # Usage
 ## Linux:
 ```
@@ -31,8 +34,12 @@ python3 unstake.py
 ```
 
 ## Windows:
-Using powershell/windows terminal, navigate to the location the files were downloaded to.
+Using powershell/windows terminal, navigate to the folder the files were downloaded to and enter the project folder:
 ```
 cd Multivac-Unstaking
+```
+
+Then you can run the script using:
+```
 python3 unstake.py
 ```
