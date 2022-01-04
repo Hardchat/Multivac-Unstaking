@@ -34,6 +34,10 @@ python3 unstake.py
 ```
 
 ## Windows:
+You can easily run the scipt using the "unstake.bat" file in the folder.
+
+Alternatively:
+
 Using powershell/windows terminal, navigate to the folder the files were downloaded to and enter the project folder:
 ```
 cd Multivac-Unstaking
