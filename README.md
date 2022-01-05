@@ -36,7 +36,7 @@ python3 unstake.py
 ```
 
 ## Windows:
-You can easily run the scipt using the `unstake.bat` file in the project folder.
+You can easily run the script using the `unstake.bat` file in the project folder.
 
 Alternatively:
 
